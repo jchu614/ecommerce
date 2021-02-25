@@ -41,9 +41,9 @@ if (process.env.NODE_ENV === 'production') {
 // app.get('*', (req, res) => 
 //     res.sendFile(path.join(__dirname, '/client/public/index.html'))
 // );
-// app.get('/',(req, res) => {
-//     res.send("It's working now!!")
-// });
+app.get('/',(req, res) => {
+    res.send("It's working now!!")
+});
 
 app.listen(port, process.env.IP, () => {
     console.log(`server running on port ${port}`)
