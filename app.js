@@ -34,13 +34,13 @@ app.use((err, req, res, next) => {
 
 const __dirname = path.resolve();
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
-if (process.env.NODE_ENV === 'production') {
-	app.use(express.static('client/build/'));
-}
-// app.use(express.static(path.join(__dirname, '/client/public')));
-// app.get('*', (req, res) => 
-//     res.sendFile(path.join(__dirname, '/client/public/index.html'))
-// );
+// if (process.env.NODE_ENV === 'production') {
+// 	app.use(express.static('client/build/'));
+// }
+app.use(express.static(path.join(__dirname, '/client/public')));
+app.get('*', (req, res) => 
+    res.sendFile(path.join(__dirname, '/client/public/index.html'))
+);
 app.get('/',(req, res) => {
     res.send("It's working now!!")
 });
