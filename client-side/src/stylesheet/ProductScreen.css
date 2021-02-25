@@ -1,0 +1,17 @@
+.card.product {
+  margin: 0;
+  margin-top: 10vh;
+}
+
+.product-header {
+  margin-bottom: 0;
+  letter-spacing: 300;
+  font-size: 1.8em;
+}
+
+.review-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
