@@ -34,9 +34,13 @@ app.use((err, req, res, next) => {
 
 const __dirname = path.resolve();
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
-app.get('/',(req, res) => {
-    res.send("It's working now!!")
-});
+app.use(express.static(path.join(__dirname, '/client/build')));
+app.get('*', (req, res) => 
+    res.sendFile(path.join(__dirname, '/client/build/index.html'))
+);
+// app.get('/',(req, res) => {
+//     res.send("It's working now!!")
+// });
 
 app.listen(port, process.env.IP, () => {
     console.log(`server running on port ${port}`)
