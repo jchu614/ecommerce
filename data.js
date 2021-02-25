@@ -33,7 +33,6 @@ const data = {
             rating: 4.5,
             numReviews: 10,
             description: 'high quality product',
-            category: 'test'
         },
         {
             name: 'Adidas Slim Shirt',
@@ -45,7 +44,6 @@ const data = {
             rating: 4,
             numReviews: 10,
             description: 'high quality product',
-            category: 'test'
         },
         {
             name: 'Lacoste Slim Shirt',
@@ -57,7 +55,6 @@ const data = {
             rating: 4.8,
             numReviews: 17,
             description: 'high quality product',
-            category: 'test'
         },
         {
             name: 'Nike Slim Pants',
@@ -69,7 +66,6 @@ const data = {
             rating: 4.5,
             numReviews: 14,
             description: 'high quality product',
-            category: 'test'
         },
         {
             name: 'Puma Slim Pants',
@@ -81,7 +77,6 @@ const data = {
             rating: 4.5,
             numReviews: 10,
             description: 'high quality product',
-            category: 'test'
         },
         {
             name: 'Adidas Slim Pants',
@@ -93,7 +88,6 @@ const data = {
             rating: 4.5,
             numReviews: 10,
             description: 'high quality product',
-            category: 'test'
         },
     ]
 }
