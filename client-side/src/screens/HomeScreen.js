@@ -201,7 +201,7 @@ export default function HomeScreen() {
                         <div className="col-1 sub-landing-2-2">
                             <a 
                                 className="link" 
-                                href="/seller/60199d02b34e53184844f67f" 
+                                href="/seller/603827141a81f20015c11b06" 
                                 style={{marginLeft: "0"}}
                             >
                                 <img 
@@ -213,7 +213,7 @@ export default function HomeScreen() {
                             <div style={{marginTop: "-18rem"}}>
                                 <a 
                                     className="link resize-center" 
-                                    href="/seller/60199d02b34e53184844f67f" 
+                                    href="/seller/603827141a81f20015c11b06" 
                                     style={{marginLeft: "0"}}
                                 > 
                                     <h1 style={{letterSpacing: "0.13em"}}>Chairs du Provance</h1>
