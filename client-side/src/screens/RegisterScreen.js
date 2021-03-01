@@ -86,7 +86,7 @@ export default function RegisterScreen(props) {
                     <label />
                     <div>
                         Already Have an Account?? {' '}
-                        <Link to={`/signin?redirect=${redirect}`}>Sign In</Link>
+                        <Link to={`/signin?redirect=${redirect}`} style={{color: "#A78D73"}}>Sign In</Link>
                     </div>
                 </div>
             </form>
