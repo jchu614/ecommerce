@@ -23,9 +23,9 @@ export default function HomeScreen() {
     
     
     // FOR LISTING PRODUCTS
-    // useEffect(() => {
-    //     dispatch(listProducts({}))
-    // }, [dispatch]);
+    useEffect(() => {
+        dispatch(listProducts({}))
+    }, [dispatch]);
 
     // FOR CHANGING NAVBAR
     useEffect(() =>{
